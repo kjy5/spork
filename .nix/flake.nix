@@ -17,7 +17,8 @@
       {
         devShells.default = pkgs.mkShell {
           buildInputs = with pkgs; [
-            zulu
+            zulu11
+            maven
           ];
         };
       }
